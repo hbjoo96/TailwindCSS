@@ -26,7 +26,7 @@
 
 - 그리고 config 파일 설정해주면 됨
 
-- <span style="color:red; font-weight:bold">prettier는 확인하고 사용!</span>
+- ![Warning](https://img.shields.io/badge/⚠️-Warning-red) <span style="font-weight:bold">prettier는 확인하고 사용!</span>
    - 반드시 팀규칙을 확인하고 .prettierrc파일을 확인하고 사용
 - 스니펫 또한 팀규칙을 확인한 이후 설정
   - snippet generator를 활용하면 생성가능!

@@ -35,5 +35,5 @@
 
 ### 내용 정리
 
-- [기초 사용](01_tailwind-basic)
-- [레이아웃](02_layout)
+- [기초 사용](01_tailwind-basic/기초.md)
+- [레이아웃](02_layout/레이아웃.md)

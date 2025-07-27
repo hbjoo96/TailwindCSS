@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- 3xl은 768px -->
+    <main class="container mx-auto max-w-3xl p-4">
+      <!-- 적용 안됨 / tailwind에서 브라우저 간 불일치를 해결하기 위해 초기화 -->
+      <h2 class="text-2xl">폰트 크기 조절</h2>
+      <!-- 공식문서에 안내가 나와있고 임의의 설정은 tailwindcss config파일을 통해 조절 가능 / 혹은 text-[]의 대괄호 안에 임의의 숫자를 기입 가능-->
+      <p class="text-xs">Lorem ipsum dolor sit amet.</p>
+      <p class="text-sm">Lorem ipsum dolor sit amet.</p>
+      <p class="text-lg">Lorem ipsum dolor sit amet.</p>
+      <p class="text-[20px]">Lorem ipsum dolor sit amet.</p>
+      <br />
+      <h2 class="text-2xl">폰트 두께 조절</h2>
+      <p class="font-bold">Lorem ipsum dolor sit amet.</p>
+      <p class="font-light">Lorem ipsum dolor sit amet.</p>
+      <p class="font-bold">Lorem ipsum dolor sit amet.</p>
+      <p class="font-black">Lorem ipsum dolor sit amet.</p>
+      <br />
+      <h2 class="text-2xl">줄 간격</h2>
+      <!-- 1.625간격 -->
+      <p class="leading-relaxed">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+        repudiandae fugit ad, sapiente optio adipisci officiis nostrum, id
+        veritatis quibusdam nihil. Doloribus, dignissimos porro eligendi
+        veritatis quas numquam voluptatem illo?
+      </p>
+      <p class="leading-loose">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+        repudiandae fugit ad, sapiente optio adipisci officiis nostrum, id
+        veritatis quibusdam nihil. Doloribus, dignissimos porro eligendi
+        veritatis quas numquam voluptatem illo?
+      </p>
+      <p class="leading-3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+        repudiandae fugit ad, sapiente optio adipisci officiis nostrum, id
+        veritatis quibusdam nihil. Doloribus, dignissimos porro eligendi
+        veritatis quas numquam voluptatem illo?
+      </p>
+      <br />
+      <h2 class="text-2xl">폰트 컬러 조절</h2>
+      <p class="text-indigo-800">Lorem ipsum dolor sit amet.</p>
+      <p class="text-sky-900">Lorem ipsum dolor sit amet.</p>
+      <p class="text-red-900">Lorem ipsum dolor sit amet.</p>
+      <!-- 투명도 조절 -->
+      <p class="text-red-900/20">Lorem ipsum dolor sit amet.</p>
+      <!-- hover 시 설정 값 변경 가능! -->
+      <p class="text-red-900 hover:text-red-200">Lorem ipsum dolor sit amet.</p>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Container</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          container: {
+            center: true,
+            padding: '2rem',
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- 기본적으로 반응형 / breaking pointer에 따라 달라짐 -->
+    <!-- <main class="container bg-indigo-600 h-screen mx-auto"></main> -->
+
+    <!-- 화면사이즈가 커져도 최대 크기를 지정 -->
+    <!-- <main class="container max-w-5xl bg-indigo-600 h-screen mx-auto"></main> -->
+
+    <!-- tailwind.config로 설정 -->
+    <main class="container bg-indigo-600 h-screen text-white">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro aliquid,
+      tempore neque minima excepturi distinctio necessitatibus corrupti adipisci
+      fuga tenetur dolor fugit alias! Doloribus, laborum dignissimos quaerat
+      inventore nesciunt nemo!
+    </main>
+  </body>
+</html>

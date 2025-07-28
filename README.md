@@ -15,7 +15,6 @@
 
 
 ### 기본 설치 시 유의 사항(Tailwind CSS Intellisence)
----
 - CDN 설치 시 config 파일이 없으니 TailwindCLI의 절차를 따라 config 파일을 생성해야함
 - 확인 결과 4.x.x 버전은 intellisence가 잘 안됨 &rarr; 방법이 있다면 찾아봐야겠지만 애초에 3.4.0버전으로 설치하는게 좋을 것 같음
 - 코드

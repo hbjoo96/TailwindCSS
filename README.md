@@ -21,8 +21,8 @@
 - 확인 결과 4.x.x 버전은 intellisence가 잘 안됨 &rarr; 방법이 있다면 찾아봐야겠지만 애초에 3.4.0버전으로 설치하는게 좋을 것 같음
 - 코드
 
-``` npm install tailwindcss@^3.4.0 ```
-``` npx tailwindcss init ```
+   - ``` npm install tailwindcss@^3.4.0 ```
+   - ``` npx tailwindcss init ```
 
 - 그리고 config 파일 설정해주면 됨
 
